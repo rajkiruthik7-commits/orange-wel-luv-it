@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+*  {  margin:0px ;}
+body { background: url('../img/background.jpg') ;background-size: cover ; background-attachment: fixed; }
+#wrapper  { width:960  ; background:#f4f1f1 ; margin: 0 auto ;}
+#header   { width:760 ; height:93 ; float: left; background: url('../img/header.png')repeat-x; padding: 0px 100px 0px 100px ;}
+#logo     { width:120 ; height:93 ; float: left;}
+#menu     { width:640 ; height:93 ;float: left; }
+#menu ul { float: right; }
+#menu ul li { list-style: none ; float: left; margin: 30px 10px 10px 20px ;
+   }
+   .active { border: 1px solid #b5b3b3; border-radius: 5px; box-shadow: 0px 0px 5px 0px #b5b3b3 ;}
+   #menu ul li:hover {  border: 1px solid #b5b3b3; border-radius: 5px; box-shadow: 0px 0px 5px 0px #b5b3b3}
+#menu ul li a { color:#b5b3b3 ; text-decoration: none; font-family: "Mulish", sans-serif; font-size:14px ;padding: 5px 15px ; float: left;}
+#shadow { width:960 ;height:39 ; float: left; background: url('../img/shadow.png') repeat-x ; }
+.padding { width: 760;  float: left; padding: 0px 100px 0px 100px ;}
+#welcome h1 { font-family: "Mulish", sans-serif; font-size:23px ; color:#616161 ; font-weight: 400; margin-bottom: 20px  ;}
+#welcome h2 { font-family: "Mulish", sans-serif; font-size:23px ; color:#616161 ; font-weight: 400; margin-bottom: 10px  ;}
+#welcome p { font-family: "Mulish", sans-serif; font-size:14 ; color:#9c9b9b ;margin-bottom: 10px  ; text-indent: 30px ; line-height: 20px ; }
+#midcontainer {width: 760;  float: left; padding: 0px 100px 0px 100px ; }
+.sub { width:243 ; float: left; margin-right: 10px; margin-top: 20px;}
+.sub h1 {font-family: "Mulish", sans-serif; font-size:23px ; color:#616161 ; font-weight: 400; margin-bottom: 15px  ;}
+.sub h2{font-family: "Mulish", sans-serif; font-size:15px ; color:#616161 ; font-weight: 400; margin-bottom: 15px  ;}
+.sub p{font-family: "Mulish", sans-serif; font-size:14 ; color:#616161 ;margin-bottom: 10px  ; line-height: 20px ;}
+.sub ul { }
+.sub ul li { font-family: "Mulish", sans-serif; font-size:14 ; color:#616161 ;margin-bottom: 10px  ; line-height: 20px ;  }
+.sub ul li a { position: relative; bottom: 10px ;}
+.tick { list-style: url('../img/tick.png') ; }
+.money { list-style: url('../img/money.png') ; }
+#footer { width:960 ; height:70 ; background: url('../img/header.png') repeat-x; float: left; margin-top:0px ;}
+#footer p {margin-top:20px ; color: #fefefe; text-align: center; }
+.clear { height: 1px ; clear: both;}
+.mt20 { margin-top: -10px ; padding: 0px 100px 0px 100px ;}
+.mt20 h1 { margin-top:10px ;}
+#welcome h1 { margin:10px 0px 0px 0px ; color: #616161; text-align: center;}
+#welcome h5 { color: #616161; text-align: center; margin-bottom:20px ; margin-top: 5px ;}
+.servicebox { width: 800 ; height:600 ;  float: left; padding:20px 0px 20px 20px ; }
+.smallbox { width:246 ; height:290 ;  float: left; margin-right: 20px ; margin-bottom:20px ;}
+.mt30 { padding: 0px 70px 0px 70px ; float: left; }
+#bigbox { width:840 ;  float: left; background:#f4f1f1 ; ; padding: 60px 60px 0px 60px;}
+#contact { width: 840 ;  background: #9c9b9b; float: left; }
+#smallhead { width: 840 ; height: 60 ; float: left;  background: url('../img/orange.png') repeat-x}
+#namebox  { width:360; height:40 ; background: #ffffff; float: left; margin: 30px 15px 15px 30px ;}
+#lastname { width:360 ; height:40 ; background:#ffffff ; float: left; margin: 30px 15px 15px 30px ;}
+#mobno { width:360 ; height:40 ; background:#ffffff ; float: left; margin: 30px 15px 15px 30px ;}
+#email {width:360 ; height:40 ; background:#ffffff; float: left; margin: 30px 15px 15px 30px ;}
+#msg { width:765 ; height:150 ; background:#ffffff ; float: left; margin: 15px 15px 15px 30px ;}
+#submit {width:235 ; height:50 ; background:#fe8425 ; float: left; margin: 80px 300px 15px 300px ;}
+#contact h1 { font-family: "Mulish", sans-serif; color:#000000 ;text-align: center; margin-top:10px ;}
+#namebox p {font-family: "Mulish", sans-serif; margin: 10px 0px 0px 10px  ;}
+#lastname p {font-family: "Mulish", sans-serif; margin: 10px 0px 0px 10px  ;}
+#mobno p {font-family: "Mulish", sans-serif; margin: 10px 0px 0px 10px  ;}
+#email p {font-family: "Mulish", sans-serif; margin: 10px 0px 0px 10px  ;}
+#msg p {font-family: "Mulish", sans-serif; margin: 10px 0px 0px 10px  ;}
+#submit h2 {font-family: "Mulish", sans-serif; margin: 10px 0px 0px 10px  ; color:#000000 ;text-align: center;margin-right:10px ;}
+#reachhead { width:437 ; height: 60 ; }
+#reachus {width: 400 ;  background: #e18140; float: left; padding: 0px 220px 0px 220px ; }
+#reachus h1 {font-family: "Mulish", sans-serif; color:#000000 ;text-align:center; margin-top: 10px ; margin-bottom:10px ;}
+#coninfo { width:439 ;  float: left; line-height: 40px ;}
+#coninfo h3 { text-align: center;}
+#coninfo h4 {text-align: center; }
+#coninfo p {text-align: center; }
+.curve {  border-radius: 10px;}
